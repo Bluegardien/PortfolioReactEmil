@@ -1,0 +1,27 @@
+{
+  "hero": "Serve the Cup that Will Please the One Who Drinks It",
+  "galleries": {
+    "title": "No Matter the Taste or Color",
+    "specialty": "Specialty Coffee",
+    "matcha": "Matcha, Mate, Tea",
+    "latte": "Latte Art"
+  },
+  "contact": {
+    "title": "Contact",
+    "mail": "Mail",
+    "telephone": "Phone",
+    "cv": "Download My CV",
+    "social": "Social Networks"
+  },
+  "presentation": {
+    "name": "Emil Duchemin, Barista",
+    "description": "Specialized in preparing specialty coffees. Each coffee tells its story, my job is to find the one that will make you travel."
+  },
+  "experiences": {
+    "formations": "Trainings",
+    "barista_course": "Barista Course - European Bartender School",
+    "title": "Experiences",
+    "local_cafe": "Local Cafe - Briancon",
+    "heidi_kitchen": "Heidi Kitchen"
+  }
+}

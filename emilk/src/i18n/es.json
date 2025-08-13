@@ -1,0 +1,27 @@
+{
+  "hero": "Sirve la taza que agradará a quien la beba",
+  "galleries": {
+    "title": "No importa el sabor o el color",
+    "specialty": "Café de especialidad",
+    "matcha": "Matcha, Mate, Té",
+    "latte": "Latte Art"
+  },
+  "contact": {
+    "title": "Contacto",
+    "mail": "Correo",
+    "telephone": "Teléfono",
+    "cv": "Descargar mi CV",
+    "social": "Redes sociales"
+  },
+  "presentation": {
+    "name": "Emil Duchemin, Barista",
+    "description": "Especializado en la preparación de cafés de especialidad. Cada café cuenta su historia, mi trabajo es encontrar la que te hará viajar."
+  },
+  "experiences": {
+    "formations": "Formaciones",
+    "barista_course": "Curso de Barista - European Bartender School",
+    "title": "Experiencias",
+    "local_cafe": "Local Cafe - Briancon",
+    "heidi_kitchen": "Heidi Kitchen"
+  }
+}

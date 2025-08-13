@@ -1,0 +1,27 @@
+{
+  "hero": "Serviere die Tasse, die demjenigen gefällt, der sie trinkt",
+  "galleries": {
+    "title": "Egal welcher Geschmack oder welche Farbe",
+    "specialty": "Spezialitätenkaffee",
+    "matcha": "Matcha, Mate, Tee",
+    "latte": "Latte Art"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "mail": "E-Mail",
+    "telephone": "Telefon",
+    "cv": "Meinen Lebenslauf herunterladen",
+    "social": "Soziale Netzwerke"
+  },
+  "presentation": {
+    "name": "Emil Duchemin, Barista",
+    "description": "Spezialisiert auf die Zubereitung von Spezialitätenkaffee. Jeder Kaffee erzählt seine Geschichte, meine Aufgabe ist es, diejenige zu finden, die Sie auf eine Reise mitnimmt."
+  },
+  "experiences": {
+    "formations": "Trainings",
+    "barista_course": "Barista-Kurs - European Bartender School",
+    "title": "Erfahrungen",
+    "local_cafe": "Local Cafe - Briançon",
+    "heidi_kitchen": "Heidi Kitchen"
+  }
+}

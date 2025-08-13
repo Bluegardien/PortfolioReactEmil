@@ -1,0 +1,27 @@
+{
+  "hero": "Servir la Tasse qui Plaira à Celui qui la Boit",
+  "galleries": {
+    "title": "Peu Importe Le Goût ou La Couleur",
+    "specialty": "Café de spécialité",
+    "matcha": "Matcha, Maté, Thé",
+    "latte": "Latte Art"
+  },
+  "contact": {
+    "title": "Contact",
+    "mail": "Mail",
+    "telephone": "Téléphone",
+    "cv": "Télécharger Mon CV",
+    "social": "Réseaux Sociaux"
+  },
+  "presentation": {
+    "name": "Emil Duchemin, Barista",
+    "description": "Spécialisé en préparation de cafés de spécialité. Chaque café raconte son histoire, mon métier est de trouver celle qui vous fera voyager."
+  },
+  "experiences": {
+    "formations": "Formations",
+    "barista_course": "Barista Course - European Bartender School",
+    "title": "Expériences",
+    "local_cafe": "Local Cafe - Briancon",
+    "heidi_kitchen": "Heidi Kitchen"
+  }
+}
