@@ -8,7 +8,7 @@ function Experiences() {
       id="sec3"
     >
       <div className="w-2/5 h-[90%] flex flex-col">
-        <h1 className="text-[50px] font-league-spartan">
+        <h1 className="text-[50px] font-league-spartan" style={{ fontSize: "clamp(2rem, 4vw, 5rem)", fontWeight: "900" }}>
           {t("experiences.formations")}
         </h1>
         <div className="flex flex-col justify-around">
@@ -21,7 +21,7 @@ function Experiences() {
         </div>
       </div>
       <div className="w-2/5 h-[90%] flex flex-col">
-        <h1 className="text-[50px] font-league-spartan">
+        <h1 className="text-[50px] font-league-spartan" style={{ fontSize: "clamp(2rem, 4vw, 5rem)", fontWeight: "900" }}>
           {t("experiences.title")}
         </h1>
         <div className="flex flex-col justify-around">
