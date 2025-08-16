@@ -7,13 +7,13 @@ function Photogrid({ folder = "cafe" }) {
         id: "image0",
         alt: "Image1's alt text",
         caption: "Image1's description",
-        src: `/Gallery/${folder}/image0.jpeg`,
+        src: `/Gallery/cafe/mon_materiel.jpeg`,
     }]);
 
     useEffect(() => {
         const fetchImages = async () => {
             try {
-                const res = await fetch(`http://localhost:3001/api/${folder}-images`);
+                const res = await fetch(`http://localhost:3001/api/view/${folder}`);
                 const data = await res.json();
                 setImagesArray(Array.isArray(data) ? data : []);
             } catch (err) {
