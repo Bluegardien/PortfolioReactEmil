@@ -4,11 +4,10 @@ import express from 'express';
 import { fileURLToPath } from 'url';
 import process from 'process';
 import cors from 'cors';
-import fs from 'fs';
-import path from 'path';
-import express from 'express';
-import { fileURLToPath } from 'url';
-import cors from 'cors';
+import multer from 'multer';
+import heicConvert from 'heic-convert';
+import serverless from "serverless-http";
+
 
 
 const __filename = fileURLToPath(import.meta.url);
