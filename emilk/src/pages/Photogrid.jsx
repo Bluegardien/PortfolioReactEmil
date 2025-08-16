@@ -13,7 +13,7 @@ function Photogrid({ folder = "cafe" }) {
     useEffect(() => {
         const fetchImages = async () => {
             try {
-                const res = await fetch(`https://emilk-seven.vercel.app/api/${folder}-images`);
+                const res = await fetch(`https://portfolio-react-emil.vercel.app/api/${folder}-images`);
                 const data = await res.json();
                 setImagesArray(Array.isArray(data) ? data : []);
             } catch (err) {
