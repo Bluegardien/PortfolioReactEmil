@@ -16,9 +16,9 @@ function Galleries() {
     useEffect(() => {
         const fetchImages = async () => {
             try {
-                const resCafe = await fetch("http://localhost:3001/api/cafe-images");
-                const resMatcha = await fetch("http://localhost:3001/api/matcha-images");
-                const resLatte = await fetch("http://localhost:3001/api/latte-images");
+                const resCafe = await fetch("https://emilk-seven.vercel.app/api/cafe-images");
+                const resMatcha = await fetch("https://emilk-seven.vercel.app/api/matcha-images");
+                const resLatte = await fetch("https://emilk-seven.vercel.app/api/latte-images");
 
                 const dataCafe = await resCafe.json();
                 const dataMatcha = await resMatcha.json();
@@ -36,7 +36,7 @@ function Galleries() {
 
     const handleDelete = async (type, filename) => {
         try {
-            const res = await fetch(`http://localhost:3002/api/${type}-images/delete/${filename}`, { method: 'DELETE' });
+            const res = await fetch(`https://emilk-seven.vercel.app/api/${type}-images/delete/${filename}`, { method: 'DELETE' });
             const result = await res.json();
             if (result.success) {
                 if (type === 'cafe') setCafeImg(imgs => imgs.filter(img => img.src.split('/').pop() !== filename));
@@ -58,7 +58,7 @@ function Galleries() {
         formData.append('image', uploadFile);
         if (uploadName) formData.append('name', uploadName); // Ajout du nom du fichier si présent
         try {
-            const res = await fetch(`http://localhost:3002/api/${uploadType}-images/upload`, {
+            const res = await fetch(`https://emilk-seven.vercel.app/api/${uploadType}-images/upload`, {
                 method: 'POST',
                 body: formData
             });
