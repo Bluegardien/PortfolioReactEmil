@@ -7,7 +7,7 @@ function Photogrid({ folder = "cafe" }) {
         id: "image0",
         alt: "Image1's alt text",
         caption: "Image1's description",
-        src: `/Gallery/${folder}/matcha.jpeg`,
+        src: `/public/Gallery/${folder}/matcha.jpeg`,
     }]);
 
     useEffect(() => {
