@@ -3,12 +3,7 @@ import { ImageGallery } from "react-image-grid-gallery";
 import AnimatedText from '../components/TextAnimation';
 
 function Photogrid({ folder = "cafe" }) {
-    const [imagesArray, setImagesArray] = useState([{
-        id: "image0",
-        alt: "Image1's alt text",
-        caption: "Image1's description",
-        src: `/Gallery/${folder}/image0.jpeg`,
-    }]);
+    const [imagesArray, setImagesArray] = useState([]);
 
     useEffect(() => {
         const fetchImages = async () => {
