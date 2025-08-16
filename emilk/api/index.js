@@ -8,8 +8,8 @@ import heicConvert from "heic-convert";
 import { createClient } from "@supabase/supabase-js";
 import { Buffer } from "buffer";
 
-const SUPABASE_URL = "https://omruuycuvaimtbvklwle.supabase.co"
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9tcnV1eWN1dmFpbXRidmtsd2xlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUzNDg1MTAsImV4cCI6MjA3MDkyNDUxMH0.KUTWZDLMB-0XGfoaRQRx9k2T2wGFgyJagVEFDisTh94"
+const SUPABASE_URL = process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.SUPABASE_KEY;
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const app = express();
